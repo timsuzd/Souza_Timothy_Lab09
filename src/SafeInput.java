@@ -200,5 +200,6 @@ public class SafeInput {
             IO.print("*");
         }
         IO.println();
+
     }
 }
