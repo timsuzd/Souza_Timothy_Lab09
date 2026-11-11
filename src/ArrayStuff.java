@@ -26,7 +26,7 @@ public class ArrayStuff {
                 System.out.print(" | ");
             }
         }
-        avg = sum / datapoints.length;
+        avg = (double) sum / datapoints.length;
         System.out.println("\n" + "The sum of all values in the array is " + sum);
         System.out.println("The mean of all values in the array is " + avg);
         rangedInput = SafeInput.getRangedInt(in, "Input an integer", 0, 100);
